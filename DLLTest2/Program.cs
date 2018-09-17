@@ -12,6 +12,7 @@ namespace DLLTest2
         static void Main(string[] args)
         {
             Console.WriteLine();
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
