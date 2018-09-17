@@ -11,7 +11,7 @@ namespace DLLTest2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine(MyMath.Add(2,4));
             Console.WriteLine();
             Console.ReadLine();
         }
