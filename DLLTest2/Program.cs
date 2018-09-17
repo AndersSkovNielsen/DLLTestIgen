@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using myMathDLL;
 
 namespace DLLTest2
 {
@@ -10,7 +11,7 @@ namespace DLLTest2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine(MyMath.Add(2,4));
             Console.WriteLine();
             Console.ReadLine();
         }
