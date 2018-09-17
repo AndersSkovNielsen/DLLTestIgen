@@ -12,6 +12,7 @@ namespace DLLTest2
         static void Main(string[] args)
         {
             Console.WriteLine(MyMath.Add(2,4));
+            Console.WriteLine(MyMath.Subtract(5,3));
             Console.WriteLine();
             Console.ReadLine();
         }
